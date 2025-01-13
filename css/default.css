@@ -1,0 +1,59 @@
+html {
+    background-color: #f4fdff;
+    color: #212121;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 2rem;
+}
+
+main h1 {
+    clear: left;
+}
+
+main section {
+    margin: 5px;
+    padding: 5px;
+}
+
+#home section {
+    width: 48%;
+    float: left;
+}
+
+main p {
+    margin: 5px;
+    width: 48%;
+    float: left;
+}
+
+main img {
+    margin: 5px;
+    width: 48%;
+    float: left;
+}
+
+#home p {
+    width: 100%;
+}
+
+#home img {
+    width: 100%;
+}
+
+.design {
+
+}
+
+.computerScience {
+    font-family: "Source Code Pro", monospace;
+}
+
+.education {
+    font-family: "Caveat", serif;
+}
