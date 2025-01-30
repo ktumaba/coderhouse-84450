@@ -1,0 +1,22 @@
+header {
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        a {
+            color: $colorDefault;
+            width: 10rem;
+            padding: 1rem;
+            border: 2px solid #f4fdff;
+            text-align: center;
+            text-decoration: none;
+            :hover {
+                background-color: #ddd;
+            }
+        }
+    }
+}
+
+#navActivePage {
+    border-bottom: 2px solid $colorDefault;
+}

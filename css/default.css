@@ -1,76 +1,67 @@
-html {
-    background-color: #f4fdff;
-    color: #212121;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+body {
+  background-color: #f4fdff;
+  color: #212121;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 header nav {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
-
 header nav a {
-    color: #212121;
-    width: 10rem;
-    padding: 1rem;
-    border: 2px solid #f4fdff;
-    text-align: center;
-    text-decoration: none;
+  color: #212121;
+  width: 10rem;
+  padding: 1rem;
+  border: 2px solid #f4fdff;
+  text-align: center;
+  text-decoration: none;
 }
-
-header nav a:hover {
-    background-color: #ddd;
+header nav a :hover {
+  background-color: #ddd;
 }
 
 #navActivePage {
-    border-bottom: 2px solid #212121;
+  border-bottom: 2px solid #212121;
 }
 
 main h1 {
-    clear: left;
+  clear: left;
 }
-
-main section {
-    margin: 5px;
-    padding: 5px;
-}
-
-#home section {
-    width: 48%;
-    float: left;
-}
-
-main p {
-    margin: 5px;
-    width: 48%;
-    float: left;
-}
-
 main img {
-    margin: 5px;
-    width: 48%;
-    float: left;
+  margin: 5px;
+  width: 48%;
+  float: left;
 }
-
-#home p {
-    width: 100%;
+main p {
+  margin: 5px;
+  width: 48%;
+  float: left;
+}
+main section {
+  margin: 5px;
+  padding: 5px;
 }
 
 #home img {
-    width: 100%;
+  width: 100%;
 }
-
-.design {
-
+#home p {
+  width: 100%;
+}
+#home section {
+  width: 48%;
+  float: left;
 }
 
 .computerScience {
-    font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 .education {
-    font-family: "Caveat", serif;
+  font-family: "Caveat", serif;
 }
+
+/*# sourceMappingURL=default.css.map */
