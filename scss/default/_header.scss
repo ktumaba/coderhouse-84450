@@ -7,11 +7,11 @@ header {
             color: $colorDefault;
             width: 10rem;
             padding: 1rem;
-            border: 2px solid #f4fdff;
+            border: 2px solid $colorBackground;
             text-align: center;
             text-decoration: none;
-            :hover {
-                background-color: #ddd;
+            &:hover {
+                background-color: $color3;
             }
         }
     }

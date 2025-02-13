@@ -3,28 +3,4 @@
 @import 'header';
 @import 'main';
 @import 'footer';
-
-#home {
-    img {
-        width: 100%;
-    }
-    p {
-        width: 100%;
-    }
-    section {
-        width: 48%;
-        float: left;
-    }
-}
-
-.design {
-
-}
-
-.computerScience {
-    font-family: "Source Code Pro", monospace;
-}
-
-.education {
-    font-family: "Caveat", serif;
-}
+@import 'iframe';
