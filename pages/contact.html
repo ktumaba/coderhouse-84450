@@ -5,6 +5,9 @@
         <meta name="description" content="Ktumaba es proyecto y una persona del cuir / queer diseño e informatica" />
         <meta name="keywords" content="cuir, queer, diseño, informatica, programaccion" />
         <title>Ktumaba - Contacto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Manrope:wght@200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/default.css" />
     </head>
     <body data-bs-theme="light">
@@ -20,8 +23,15 @@
         <main>
             <h1>Digame tu idea, pregunta, ...</h1>
             <section>
-                <h2>Por que Cuir diseño e informatica</h2>
-                <h3>Porque es mas profundidad e identidad y no solo superficie</h3>
+                <form action="./contact_post.html" method="post">
+                    <label for="name">Tu nombre</label><br>
+                    <input type="text" id="name" name="name" value=""><br>
+                    <label for="email">Tu correo</label><br>
+                    <input type="text" id="email" name="email" value=""><br><br>
+                    <label for="message">Tu mensage</label><br>
+                    <input type="text" id="message" name="message" value=""><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
             </section>
         </main>
         <footer>
